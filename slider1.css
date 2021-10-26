@@ -1,0 +1,214 @@
+m *{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+	background-color: #3d3a3b;
+	position:absolute auto;
+	
+}
+
+.logo{
+    color: floralwhite;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	font-size: 20px; 
+	padding-left: -500px;  
+}
+
+.nav ul li a{
+    display: flex;
+    justify-content: space-around;
+	width: 30%;
+	position:absolute auto;
+	
+}
+.nav ul li a{
+    color:floralwhite;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: bold;
+	font-size: 14px;
+	position:absolute auto;
+}
+
+.nav ul li a{
+    list-style: none;
+}
+
+nav ul li {
+	list-style:none;
+	display :inline-block;
+	line-height: 30px;
+	position:absolute auto;
+	padding-right: -100px;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	font-family: Candara;
+	padding: 0 20px;
+	position:relative auto;
+}
+
+nav ul li a:hover {
+	color: #8C1919;
+}
+
+body{
+	background-color: darkcyan;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Times New Roman', Times, serif;
+}
+.carousel-slider{
+max-width: 700px;
+max-height: 460px;
+border: 50px solid rgb(90, 85, 85);
+margin: 20px auto;
+position:relative;
+
+
+}
+   .startbtn{
+	
+	border: 10px solid #3498db;
+	background: rgb(168, 168, 168);
+	padding: 20px 20px;
+	font-size: 30px;
+	text-align: center;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 5px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	width: 120px;
+	position: absolute;
+	padding: 15px;
+	bottom: -500px;
+	margin-right: 2px;
+   Left: 260px;
+
+}
+
+.startbtn::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+  }
+.startbtn:hover{
+	background-color: rgb(226, 207, 161);
+	
+}
+.carousel-slider .leftbtn,.carousel-slider .rightbtn{
+position: absolute;
+height: 40px;
+width: 40px;
+background-color: #444444;
+border-radius: 50%;
+color: #ffffff;
+font-size: 14px;
+top: 90%;
+margin-top: -200px;
+text-align: center;
+line-height: 40px;
+}
+
+.carousel-slider .leftbtn:hover,.carousel-slider .rightbtn:hover{
+box-shadow: 0px 0px 10px black;
+background-color:rgb(111, 138, 138);
+}
+
+.carousel-slider .leftbtn{
+	left: 760px;
+}
+
+.carousel-slider .rightbtn{
+	right: 760px;
+}
+
+.carousel-slider .carousel-item .item img{
+	max-width: 100%;
+	display: block;
+}
+
+.carousel-slider .carousel-item .item{
+	display: none;
+	position: relative;
+}
+
+.carousel-slider .carousel-item .item .caption1{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	bottom: -490px;
+	left: 0px;
+	background-color: lightslategray;
+	line-height: 40px;
+	text-align: center;
+	color: rgb(246, 240, 243);
+	font-size: 20px;
+}
+
+
+.carousel-slider .carousel-item .item.active{
+	display: block;
+}
+
+.caption2{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Times New Roman', Times, serif;
+	font-style:normal;
+	color: lightcoral;
+	position: relative;
+	padding-inline: 300;
+}
+
+.caption3{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Times New Roman', Times, serif;
+	font-style:normal;
+	color: lightcoral;
+	position: relative;
+	padding-inline: 300;
+}
+
+.caption4{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Times New Roman', Times, serif;
+	font-style:normal;
+	color: lightcoral;
+	position: relative;
+	padding-inline: 300;
+}
+.title{	
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: oblique;
+	color: lightcoral;
+	position: relative;
+}

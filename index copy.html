@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Entrepreneurs</title>
+  <link rel="stylesheet" href="slider1.css">
+  <link rel="stylesheet" href="Alaghari-weekly-excersies\slider1.js"/>
+
+  <nav>
+   <div class="logo">
+       <h4> The Entrepreneurs </h4>
+   </div>
+   <ul class="nav-links">
+       <li><a href="index copy.html">Home </a> </li>
+    </ul>
+</nav>
+
+</head>
+<body>
+
+		<div class="title">
+			<h2> The Entrepreneurial Poem</h2>
+
+		</div>
+      <div class="carousel-slider1">
+         <div class="carousel-item">
+            <div  class="item active">
+             <img src="images/pic1.PNG" />
+             <div class="caption2">
+				Creative and driven
+				Bound to succeed
+				Seeing opportunity
+				Where others concede</br> 
+			 </br> 
+				
+				Seeking out problems
+				To see in a new light
+				Creating solutions
+				Well into the night.</br> 
+				<br> 
+				Failures seen as lessons
+				Getting closer to goals
+				Reaching new heights
+				With them at the controls.</br> 
+				<br> 
+				Knowing their limits
+				Yet exceeding them at times
+				With each new venture
+				Their status now climbs.</br> 
+				<br> 
+				Giving back as they go
+				Regardless of ego
+				The capitalist spirit
+				In the form of a pro.</br> 
+				<br> 
+				When one idea is finished
+				Another is started
+				Taking so much risk
+				Is not for the faint hearted.</br> 
+				
+             </div>
+           <!--slidercontrol-->
+               <!--slidercontrol<a href="page-2.html">
+               <button> 
+               <div class="leftbtn">  > </div> 
+                </button> </a>
+
+               <a href="page-2.html"> </a>
+                <button>
+               <div class="rightbtn">  </div> 
+                  </button>
+               </a>-->
+           <!--slidercontrol-->
+         </div>
+      </div>
+
+         
+<script>
+var bleep = new Audio();
+bleep.src = 'C:\Users\aaqib\Desktop\web design\assignment3\workinprogress-prototype\sound\bleep.mp3';
+</script>
+ 
+         <button onclick="bleep.play()">
+         <a href="page-2.html" onclick="bleep.play()">
+          <div class="startbtn">Lets Begin</div>
+         </a>
+         </button>
+
+      
+         </body>
+         </html>
+
+<style>
+   .startbtn{
+	
+	border: 10px solid #3498db;
+	background: rgb(168, 168, 168);
+	padding: 20px 20px;
+	font-size: 30px;
+	text-align: center;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 5px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	width: 170px;
+	position: absolute;
+	padding: 15px;
+	bottom: -785px;
+	margin-right: 2px;
+   	Left: 250px;
+
+}
+
+.title{	
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: oblique;
+	color: lightcoral;
+	position: relative;
+}
+
+.startbtn::before{
+	content: "";
+	position: -645px auto;
+	left: 0;
+	width: 100%;
+	height: 0%;
+	background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+  }
+
+.carousel-slider1
+  {
+max-width: 700px;
+max-height: 460px;
+top: 60px;
+border: 50px solid rgb(90, 85, 85);
+margin: 20px auto;
+position: relative;
+}
+.carousel-slider1 .leftbtn,.carousel-slider .rightbtn{
+position: absolute;
+height: 40px;
+width: 40px;
+background-color: #444444;
+border-radius: 50%;
+color: #ffffff;
+font-size: 14px;
+top: 90%;
+margin-top: -200px;
+text-align: center;
+line-height: 40px;
+}
+
+.carousel-slider1 .leftbtn:hover,.carousel-slider .rightbtn:hover{
+box-shadow: 0px 0px 10px black;
+background-color:rgb(111, 138, 138);
+}
+
+.carousel-slider1 .leftbtn{
+	left: 760px;
+}
+
+.carousel-slider1 .rightbtn{
+	right: 760px;
+}
+
+.carousel-slider1 .carousel-item .item img{
+	max-width: 100%;
+	display: block;
+}
+
+.carousel-slider1 .carousel-item .item{
+	display: none;
+	position: relative;
+}
+
+
+.carousel-slider1 .carousel-item .item .caption2
+{
+	position: absolute;
+	width: 100%;
+	height: 690px;
+	bottom: -690px;
+	left: 0px;
+	background-color: lightslategray;
+	line-height: 40px;
+	text-align: center;
+	color: rgb(246, 240, 243);
+	font-size: 18px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-slider1 .carousel-item .item.active{
+	display: block;
+}
+  .carousel-slider1 .carousel-item .item .caption1{
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	bottom: -500px;
+	left: 0px;
+	background-color: lightslategray;
+	line-height: 100px;
+	text-align: center;
+	color: rgb(246, 240, 243);
+	font-size: 20px;
+}
+
+</style>
